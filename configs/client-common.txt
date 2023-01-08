@@ -1,0 +1,8 @@
+dev tun
+proto tcp
+remote zoglam.me 8081
+auth SHA512
+cipher AES-256-CBC
+tls-client
+tls-ciphersuites TLS_AES_256_GCM_SHA384
+auth-user-pass
